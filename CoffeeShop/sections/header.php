@@ -7,15 +7,17 @@
     #################################################################################################-->
 
 <header>
-   <a href="#" class="logo"><i class="fas fa-utensils"></i>Coffee Shop.</a>
+    <a href="../index.php">
+            <img class="logo" src="../images/logo2.png" alt="">
+        </a>
 
     <nav class="navbar">
-        <a class="active" href="#home">home</a>
-        <a href="#offers">offers</a>
-        <a href="#about">about</a>
-        <a href="#menu">menu</a>
-        <a href="#extra">toppings</a>
-        <a href="#review">reviews</a>
+        <a class="active" href="#home">HOME</a>
+        <a href="#offers">OFFERS</a>
+        <a href="#about">ABOUT</a>
+        <a href="#menu">MENU</a>
+        <a href="#extra">TOPPINGS</a>
+        <a href="#review">REVIEWS</a>
     </nav>
 
     <div class="icons">

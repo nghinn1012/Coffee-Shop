@@ -5,8 +5,8 @@
 }
 
 @font-face {
-  font-family: 'Nunito';
-  src: url('../fonts/Nunito-Regular.ttf') format('truetype');
+  font-family: 'EB';
+  src: url('../fonts/EBGaramond-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
@@ -33,7 +33,7 @@
 }
 
 * {
-  font-family: "Nunito", sans-serif;
+  font-family: "EB", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
