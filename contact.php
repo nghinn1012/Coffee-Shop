@@ -71,9 +71,9 @@ if(isset($_POST['send'])){
 
    <div class="row">
 
-      <div class="image">
+      <!-- <div class="image">
          <img src="images/contact-img.svg" alt="">
-      </div>
+      </div> -->
 
       <form action="" method="post">
          <h3>tell us something!</h3>

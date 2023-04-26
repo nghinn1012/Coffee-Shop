@@ -105,7 +105,7 @@ if(isset($_POST['submit'])){
          }
       ?>
       <p class="grand-total"><span class="name">grand total :</span><span class="price">$<?= $grand_total; ?></span></p>
-      <a href="cart.php" class="btn">veiw cart</a>
+      <a href="cart.php" class="btn">view cart</a>
    </div>
 
    <input type="hidden" name="total_products" value="<?= $total_products; ?>">

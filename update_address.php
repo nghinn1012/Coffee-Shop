@@ -54,8 +54,8 @@ if(isset($_POST['submit'])){
       <input type="text" class="box" placeholder="town name" required maxlength="50" name="town">
       <input type="text" class="box" placeholder="city name" required maxlength="50" name="city">
       <input type="text" class="box" placeholder="state name" required maxlength="50" name="state">
-      <input type="text" class="box" placeholder="country name" required maxlength="50" name="country">
-      <input type="number" class="box" placeholder="pin code" required max="999999" min="0" maxlength="6" name="pin_code">
+      <!-- <input type="text" class="box" placeholder="country name" required maxlength="50" name="country"> -->
+      <!-- <input type="number" class="box" placeholder="pin code" required max="999999" min="0" maxlength="6" name="pin_code"> -->
       <input type="submit" value="save address" name="submit" class="btn">
    </form>
 
