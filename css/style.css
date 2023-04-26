@@ -7,7 +7,9 @@
    --white:#fff;
    --black:#222;
    --light-color:#777;
+   --color-tx: rgb(121, 79, 57);
    --border:.2rem solid var(--black);
+   --border2:.2rem solid var(--white);
 }
 
 *{
@@ -345,6 +347,7 @@ section{
    color:var(--white);
 }
 
+
 .products .box-container{
    display: grid;
    grid-template-columns: repeat(auto-fit, 33rem);
@@ -512,6 +515,12 @@ section{
 
 .products .cart-total p span{
    color:var(--red);
+}
+
+.products.video-banner video {
+   background-color: rgb(255, 255, 251);
+   padding: 0 2.8%;
+   width: 100%;
 }
 
 .products .cart-total .btn{
@@ -790,6 +799,19 @@ section{
 .orders .box-container .box p span{
    color:var(--black);
 }
+.form-container {
+   /* background-color: var(--bg); */
+   background-image: url("../images/1.jpg");
+   background-color: var(--bg);
+   height: 550px;
+   background-size: cover;
+   background-position: center;
+   margin: 0 0;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+}
 
 .form-container form{
    border:var(--border);
@@ -818,7 +840,7 @@ section{
 .form-container form p{
    margin-top: 1.5rem;
    font-size: 2rem;
-   color:var(--light-color);
+   color:var(--color-tx);
 }
 
 .form-container form p a{

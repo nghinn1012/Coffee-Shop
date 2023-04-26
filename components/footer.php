@@ -17,22 +17,22 @@
             Locations
         </div>
         <div>
-            <a href="https://goo.gl/maps/rUd2truRkpYy3QeJA" class="heading-h2">KL, Bukit Bintang <br></a>
-            <a href="https://goo.gl/maps/hKQanZWusZWKNaTj7" class="heading-h2">PJY, IOI City Mall <br></a>
-            <a href="https://goo.gl/maps/y5SGERnjrDGjv6Z3A" class="heading-h2">SGR, Sunway Pyramid </a>
+            <a href="https://goo.gl/maps/rUd2truRkpYy3QeJA" class="heading-h2">HN, Xuan Thuy <br></a>
+            <a href="https://goo.gl/maps/hKQanZWusZWKNaTj7" class="heading-h2">SG, Ho Chi Minh <br></a>
+            <a href="https://goo.gl/maps/y5SGERnjrDGjv6Z3A" class="heading-h2">HN, Ton That Thuyet </a>
         </div>
     </div>
 
-    <a href="#welcome-page"><img class="footer-logo" src="images/logoft.png" alt=""></a>
+    <a href="../home.php"><img class="footer-logo" src="images/logoft.png" alt=""></a>
 
     <div class="content-wrapper">
         <div class="heading-h1 primary-font">
             Information
         </div>
         <div>
-            <a class="heading-h2" href="html/menu.php">Menu</a> <br>
-            <a class="heading-h2" href="html/about.php">About</a> <br>
-            <a class="heading-h2" href="html/reservation.php">Reservation</a> <br>
+            <a class="heading-h2" href="../menu.php">Menu</a> <br>
+            <a class="heading-h2" href="../about.php">About</a> <br>
+            <a class="heading-h2" href="../contact.php">Contact</a> <br>
         </div>
     </div>
 
@@ -52,14 +52,14 @@
                 <div class="week-day heading-h2">Saturday</div>
                 <div class="icon-time-container">
                     <img src="images/star-transparent.png" alt="">
-                    <div class="heading-h2"> 09-01</div>
+                    <div class="heading-h2"> 09-23</div>
                 </div>
             </div>
             <div class="day-hour-inner-container">
                 <div class="week-day heading-h2">Sunday</div>
                 <div class="icon-time-container">
                     <img src="images/star-transparent.png" alt="">
-                    <div class="heading-h2"> 09-23</div>
+                    <div class="heading-h2"> 09-24</div>
                 </div>
             </div>
 

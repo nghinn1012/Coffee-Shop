@@ -68,6 +68,7 @@ include 'components/add_cart.php';
       ?>
 
    </div>
+   <video class="video-banner" autoplay muted loop src="making-a-coffee.mp4" alt = "error"></video>
 
 </section>
 

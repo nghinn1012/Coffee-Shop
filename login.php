@@ -49,12 +49,13 @@ if(isset($_POST['submit'])){
 </head>
 <body>
    
+   
 <!-- header section starts  -->
 <?php include 'components/user_header.php'; ?>
 <!-- header section ends -->
 
 <section class="form-container">
-
+   <!-- <div class = "bg-image-login"> -->
    <form action="" method="post">
       <h3>login now</h3>
       <input type="email" name="email" required placeholder="enter your email" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
@@ -62,6 +63,7 @@ if(isset($_POST['submit'])){
       <input type="submit" value="login now" name="submit" class="btn">
       <p>don't have an account? <a href="register.php">register now</a></p>
    </form>
+   <!-- </div> -->
 
 </section>
 
