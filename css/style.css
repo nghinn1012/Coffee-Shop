@@ -68,13 +68,13 @@ section{
    justify-content: center;
    gap:1rem;
    flex-flow: column;
-   /* background-color: var(--black); */
+   background-color: var(--bg);
    min-height: 20rem;
 }
    
 .heading h3{
    font-size: 5rem;
-   color:var(--white);
+   color:var(--black);
    text-transform: capitalize;
 }
 
@@ -527,7 +527,11 @@ section{
    margin-top: 0;
 }
 
+.about {
+   background-color: var(--bg);
+}
 .about .row{
+   background-color: var(--bg);
    display: flex;
    align-items: center;
    flex-wrap: wrap;
@@ -549,7 +553,7 @@ section{
 
 .about .row .content h3{
    font-size: 3rem;
-   color:var(--black);
+   color:var(--yellow);
    text-transform: capitalize;
    margin-bottom: 1rem;
 }
@@ -561,7 +565,12 @@ section{
    color:var(--light-color);
 }
 
+.steps {
+   background-color: var(--bg);
+}
+
 .steps .box-container{
+   /* background-color: var(--bg); */
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
    gap:1.5rem;
@@ -570,12 +579,12 @@ section{
 
 .steps .box-container .box{
    text-align: center;
-   border:var(--border);
+   /* border:var(--border); */
    padding:2rem;
 }
 
 .steps .box-container .box img{
-   height: 15rem;
+   height: auto;
    width: 100%;
    object-fit: contain;
    margin-bottom: 1rem;
@@ -592,6 +601,10 @@ section{
    line-height: 2;
    font-size: 1.6rem;
    color:var(--light-color);
+}
+
+.reviews {
+   background-color: var(--bg);
 }
 
 .reviews .slide{
@@ -970,7 +983,7 @@ section{
 
 
 footer{
-   background-color: #FFF7E8;
+   background-color: var(--bg);
 }
 
 footer a{

@@ -47,15 +47,14 @@ if(isset($_SESSION['user_id'])){
    <div class="row">
 
       <div class="image">
-         <img src="images/about-img.svg" alt="">
+         <img src="images/about.jpg" alt="">
       </div>
 
       <div class="content">
-         <h3>Về chúng tôi</h3>
-         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Deserunt, neque debitis incidunt qui ipsum sed doloremque
-            a molestiae in veritatis ullam similique sunt aliquam dolores
-            dolore? Quasi atque debitis nobis!</p>
+         <h3>About us</h3>
+         <p>Choose coffee, choose your mind. <br>
+            nhà trong ngõ, since 1990.
+         </p>
          <a href="menu.php" class="btn">our menu</a>
       </div>
 
@@ -69,26 +68,26 @@ if(isset($_SESSION['user_id'])){
 
 <section class="steps">
 
-   <h1 class="title">simple steps</h1>
+   <h1 class="title">team</h1>
 
    <div class="box-container">
 
       <div class="box">
-         <img src="images/step-1.png" alt="">
-         <h3>choose order</h3>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, dolorem.</p>
+         <img src="images/t1.jpg" alt="">
+         <h3>Đức Huy</h3>
+         <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, dolorem.</p> -->
       </div>
 
       <div class="box">
-         <img src="images/step-2.png" alt="">
-         <h3>fast delivery</h3>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, dolorem.</p>
+         <img src="images/t2.jpg" alt="">
+         <h3>Khánh Huyền</h3>
+         <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, dolorem.</p> -->
       </div>
 
       <div class="box">
-         <img src="images/step-3.png" alt="">
-         <h3>enjoy food</h3>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, dolorem.</p>
+         <img src="images/t3.jpg" alt="">
+         <h3>Thảo Hương</h3>
+         <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, dolorem.</p> -->
       </div>
 
    </div>
