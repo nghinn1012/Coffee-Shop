@@ -1,39 +1,76 @@
-<footer class="footer">
+<footer>
 
-   <section class="grid">
+<div class="info-container">
+    <div class="content-wrapper">
+        <div class="heading-h1 primary-font">
+            Contact
+        </div>
+        <div class="heading-h2">
+            Phone: 123 456 789 <br>
+            Email: uetSE@gmail.com <br>
+            Address: 144 Xuan Thuy, HN
+        </div>
+    </div>
 
-      <div class="box">
-         <img src="images/email-icon.png" alt="">
-         <h3>our email</h3>
-         <a href="mailto:shaikhanas@gmail.com">shaikhanas@gmail.com</a>
-         <a href="mailto:anasbhai@gmail.com">anasbhai@gmail.com</a>
-      </div>
+    <div class="content-wrapper">
+        <div class="heading-h1 primary-font">
+            Locations
+        </div>
+        <div>
+            <a href="https://goo.gl/maps/rUd2truRkpYy3QeJA" class="heading-h2">KL, Bukit Bintang <br></a>
+            <a href="https://goo.gl/maps/hKQanZWusZWKNaTj7" class="heading-h2">PJY, IOI City Mall <br></a>
+            <a href="https://goo.gl/maps/y5SGERnjrDGjv6Z3A" class="heading-h2">SGR, Sunway Pyramid </a>
+        </div>
+    </div>
 
-      <div class="box">
-         <img src="images/clock-icon.png" alt="">
-         <h3>opening hours</h3>
-         <p>00:07am to 00:10pm</p>
-      </div>
+    <a href="#welcome-page"><img class="footer-logo" src="images/logoft.png" alt=""></a>
 
-      <div class="box">
-         <img src="images/map-icon.png" alt="">
-         <h3>our address</h3>
-         <a href="#">mumbai, india - 400104</a>
-      </div>
+    <div class="content-wrapper">
+        <div class="heading-h1 primary-font">
+            Information
+        </div>
+        <div>
+            <a class="heading-h2" href="html/menu.php">Menu</a> <br>
+            <a class="heading-h2" href="html/about.php">About</a> <br>
+            <a class="heading-h2" href="html/reservation.php">Reservation</a> <br>
+        </div>
+    </div>
 
-      <div class="box">
-         <img src="images/phone-icon.png" alt="">
-         <h3>our number</h3>
-         <a href="tel:1234567890">123-456-7890</a>
-         <a href="tel:1112223333">111-222-3333</a>
-      </div>
+    <div class="content-wrapper">
+        <div class="heading-h1 primary-font">
+            Operating Hours
+        </div>
+        <div class="day-hour-outer-container">
+            <div class="day-hour-inner-container">
+                <div class="week-day heading-h2">Mon - Fri</div>
+                <div class="icon-time-container">
+                    <img src="images/star-transparent.png" alt="">
+                    <div class="heading-h2"> 09-22</div>
+                </div>
+            </div>
+            <div class="day-hour-inner-container">
+                <div class="week-day heading-h2">Saturday</div>
+                <div class="icon-time-container">
+                    <img src="images/star-transparent.png" alt="">
+                    <div class="heading-h2"> 09-01</div>
+                </div>
+            </div>
+            <div class="day-hour-inner-container">
+                <div class="week-day heading-h2">Sunday</div>
+                <div class="icon-time-container">
+                    <img src="images/star-transparent.png" alt="">
+                    <div class="heading-h2"> 09-23</div>
+                </div>
+            </div>
 
-   </section>
+        </div>
 
-   <div class="credit">&copy; copyright @ <?= date('Y'); ?> by <span>mr. web designer</span> | all rights reserved!</div>
-
-</footer>
-
-<div class="loader">
-   <img src="images/loader.gif" alt="">
+    </div>
 </div>
+
+<div class="copyright-container">
+    <div class="copyright">
+        © 2023 UET. All Rights Reserved
+    </div>
+</div>
+</footer>

@@ -90,22 +90,22 @@ include 'components/add_cart.php';
    <div class="box-container">
 
       <a href="category.php?category=fast food" class="box">
-         <img src="images/cat-1.png" alt="">
+         <img src="images/cat1.png" alt="">
          <h3>fast food</h3>
       </a>
 
-      <a href="category.php?category=main dish" class="box">
-         <img src="images/cat-2.png" alt="">
-         <h3>main dishes</h3>
+      <a href="category.php?category=coffee" class="box">
+         <img src="images/cat2.png" alt="">
+         <h3>coffee</h3>
       </a>
 
       <a href="category.php?category=drinks" class="box">
-         <img src="images/cat-3.png" alt="">
-         <h3>drinks</h3>
+         <img src="images/cat3.png" alt="">
+         <h3>smoothie</h3>
       </a>
 
       <a href="category.php?category=desserts" class="box">
-         <img src="images/cat-4.png" alt="">
+         <img src="images/cat4.png" alt="">
          <h3>desserts</h3>
       </a>
 
@@ -153,7 +153,7 @@ include 'components/add_cart.php';
    </div>
 
    <div class="more-btn">
-      <a href="menu.html" class="btn">veiw all</a>
+      <a href="menu.php" class="btn">view all</a>
    </div>
 
 </section>
