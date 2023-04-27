@@ -90,7 +90,7 @@ include 'components/add_cart.php';
 
    <div class="box-container">
 
-      <a href="category.php?category=tea" class="box">
+      <a href="category.php?category=trà" class="box">
          <img src="images/cat-1.png" alt="">
          <h3>Trà</h3>
       </a>
@@ -100,12 +100,12 @@ include 'components/add_cart.php';
          <h3>coffee</h3>
       </a>
 
-      <a href="category.php?category=smoothie" class="box">
+      <a href="category.php?category=sinh tố" class="box">
          <img src="images/cat3.png" alt="">
          <h3>Sinh tố</h3>
       </a>
 
-      <a href="category.php?category=desserts" class="box">
+      <a href="category.php?category=tráng miệng" class="box">
          <img src="images/cat4.png" alt="">
          <h3>Món tráng miệng</h3>
       </a>
