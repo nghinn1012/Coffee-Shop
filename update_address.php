@@ -31,7 +31,7 @@ if(isset($_POST['submit'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>update address</title>
+   <title>Cập nhật địa chỉ</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -47,16 +47,16 @@ if(isset($_POST['submit'])){
 <section class="form-container">
 
    <form action="" method="post">
-      <h3>your address</h3>
-      <input type="text" class="box" placeholder="flat no." required maxlength="50" name="flat">
-      <input type="text" class="box" placeholder="building no." required maxlength="50" name="building">
-      <input type="text" class="box" placeholder="area name" required maxlength="50" name="area">
-      <input type="text" class="box" placeholder="town name" required maxlength="50" name="town">
-      <input type="text" class="box" placeholder="city name" required maxlength="50" name="city">
-      <input type="text" class="box" placeholder="state name" required maxlength="50" name="state">
+      <h3>Địa chỉ của bạn</h3>
+      <input type="text" class="box" placeholder="phòng" required maxlength="50" name="flat">
+      <input type="text" class="box" placeholder="số nhà" required maxlength="50" name="building">
+      <input type="text" class="box" placeholder="khu" required maxlength="50" name="area">
+      <input type="text" class="box" placeholder="phường" required maxlength="50" name="town">
+      <input type="text" class="box" placeholder="quận" required maxlength="50" name="city">
+      <input type="text" class="box" placeholder="thành phố" required maxlength="50" name="state">
       <!-- <input type="text" class="box" placeholder="country name" required maxlength="50" name="country"> -->
       <!-- <input type="number" class="box" placeholder="pin code" required max="999999" min="0" maxlength="6" name="pin_code"> -->
-      <input type="submit" value="save address" name="submit" class="btn">
+      <input type="submit" value="lưu địa chỉ" name="submit" class="btn">
    </form>
 
 </section>
