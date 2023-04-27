@@ -20,11 +20,11 @@ if(isset($message)){
         </a>
 
       <nav class="navbar">
-         <a href="home.php">HOME</a>
-         <a href="about.php">ABOUT</a>
-         <a href="menu.php">MENU</a>
-         <a href="orders.php">ORDERS</a>
-         <a href="contact.php">CONTACT</a>
+         <a href="home.php">TRANG CHỦ</a>
+         <a href="about.php">VỀ CHÚNG TÔI</a>
+         <a href="menu.php">THỰC ĐƠN</a>
+         <a href="orders.php">ĐẶT HÀNG</a>
+         <a href="contact.php">LIÊN HỆ</a>
       </nav>
 
       <div class="icons">
