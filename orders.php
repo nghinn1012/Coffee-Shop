@@ -35,13 +35,13 @@ if(isset($_SESSION['user_id'])){
 <!-- header section ends -->
 
 <div class="heading">
-   <h3>Chọn món</h3>
-   <p><a href="home.php">Trang chủ</a> <span> / Chọn món</span></p>
+   <h3>Đơn hàng</h3>
+   <p><a href="home.php">Trang chủ</a> <span> / Đơn hàng</span></p>
 </div>
 
 <section class="orders">
 
-   <h1 class="title">Món ăn của bạn</h1>
+   <h1 class="title">Đơn hàng của bạn</h1>
 
    <div class="box-container">
 

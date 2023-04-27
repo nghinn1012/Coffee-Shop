@@ -47,8 +47,8 @@ if(isset($_GET['delete'])){
    <div class="box-container">
 
    <div class="box">
-      <p>register new admin</p>
-      <a href="register_admin.php" class="option-btn">register</a>
+      <p>Đăng ký admin</p>
+      <a href="register_admin.php" class="option-btn">đăng ký</a>
    </div>
 
    <?php
@@ -58,8 +58,8 @@ if(isset($_GET['delete'])){
          while($fetch_accounts = $select_account->fetch(PDO::FETCH_ASSOC)){  
    ?>
    <div class="box">
-      <p> admin id : <span><?= $fetch_accounts['id']; ?></span> </p>
-      <p> username : <span><?= $fetch_accounts['name']; ?></span> </p>
+      <p> id admin : <span><?= $fetch_accounts['id']; ?></span> </p>
+      <p> tên admin : <span><?= $fetch_accounts['name']; ?></span> </p>
       <div class="flex-btn">
          <a href="admin_accounts.php?delete=<?= $fetch_accounts['id']; ?>" class="delete-btn" onclick="return confirm('delete this account?');">delete</a>
          <?php
@@ -72,7 +72,7 @@ if(isset($_GET['delete'])){
    <?php
       }
    }else{
-      echo '<p class="empty">no accounts available</p>';
+      echo '<p class="empty">Không có account nào</p>';
    }
    ?>
 

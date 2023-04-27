@@ -132,7 +132,7 @@ if(isset($_GET['delete'])){
    <?php
          }
       }else{
-         echo '<p class="empty">no products added yet!</p>';
+         echo '<p class="empty">Chưa có sản phẩm nào!</p>';
       }
    ?>
 

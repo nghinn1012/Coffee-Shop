@@ -53,16 +53,16 @@ if(isset($_GET['delete'])){
          while($fetch_messages = $select_messages->fetch(PDO::FETCH_ASSOC)){
    ?>
    <div class="box">
-      <p> name : <span><?= $fetch_messages['name']; ?></span> </p>
-      <p> number : <span><?= $fetch_messages['number']; ?></span> </p>
-      <p> email : <span><?= $fetch_messages['email']; ?></span> </p>
-      <p> message : <span><?= $fetch_messages['message']; ?></span> </p>
+      <p> Tên : <span><?= $fetch_messages['name']; ?></span> </p>
+      <p> Điện thoại : <span><?= $fetch_messages['number']; ?></span> </p>
+      <p> Email : <span><?= $fetch_messages['email']; ?></span> </p>
+      <p> Lời nhắn : <span><?= $fetch_messages['message']; ?></span> </p>
       <a href="messages.php?delete=<?= $fetch_messages['id']; ?>" class="delete-btn" onclick="return confirm('delete this message?');">delete</a>
    </div>
    <?php
          }
       }else{
-         echo '<p class="empty">you have no messages</p>';
+         echo '<p class="empty">Không có tin nhắn nào</p>';
       }
    ?>
 

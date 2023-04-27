@@ -62,11 +62,11 @@ if(isset($_POST['submit'])){
 <section class="form-container">
 
    <form action="" method="POST">
-      <h3>register new</h3>
-      <input type="text" name="name" maxlength="20" required placeholder="enter your username" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
-      <input type="password" name="pass" maxlength="20" required placeholder="enter your password" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
-      <input type="password" name="cpass" maxlength="20" required placeholder="confirm your password" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
-      <input type="submit" value="register now" name="submit" class="btn">
+      <h3>Đăng ký</h3>
+      <input type="text" name="name" maxlength="20" required placeholder="Nhập tên người dùng của bạn" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="password" name="pass" maxlength="20" required placeholder="Nhập mật khẩu" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="password" name="cpass" maxlength="20" required placeholder="Xác nhận mật khẩu" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="submit" value="Đăng ký ngay" name="submit" class="btn">
    </form>
 
 </section>

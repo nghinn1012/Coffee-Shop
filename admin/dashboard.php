@@ -40,9 +40,9 @@ if(!isset($admin_id)){
    <div class="box-container">
 
    <div class="box">
-      <h3>welcome!</h3>
+      <h3>Xin chào!</h3>
       <p><?= $fetch_profile['name']; ?></p>
-      <a href="update_profile.php" class="btn">update profile</a>
+      <a href="update_profile.php" class="btn">Cập nhật thông tin</a>
    </div>
 
    <div class="box">
@@ -55,8 +55,8 @@ if(!isset($admin_id)){
          }
       ?>
       <h3><span>$</span><?= $total_pendings; ?><span>/-</span></h3>
-      <p>total pendings</p>
-      <a href="placed_orders.php" class="btn">see orders</a>
+      <p>Tổng đơn hàng đang chờ</p>
+      <a href="placed_orders.php" class="btn">Xem đơn hàng</a>
    </div>
 
    <div class="box">
@@ -69,8 +69,8 @@ if(!isset($admin_id)){
          }
       ?>
       <h3><span>$</span><?= $total_completes; ?><span>/-</span></h3>
-      <p>total completes</p>
-      <a href="placed_orders.php" class="btn">see orders</a>
+      <p>Tổng đơn hàng hoàn thành</p>
+      <a href="placed_orders.php" class="btn">Xem đơn hàng</a>
    </div>
 
    <div class="box">
@@ -80,8 +80,8 @@ if(!isset($admin_id)){
          $numbers_of_orders = $select_orders->rowCount();
       ?>
       <h3><?= $numbers_of_orders; ?></h3>
-      <p>total orders</p>
-      <a href="placed_orders.php" class="btn">see orders</a>
+      <p>Tất cả đơn hàng</p>
+      <a href="placed_orders.php" class="btn">Xem đơn hàng</a>
    </div>
 
    <div class="box">
@@ -91,8 +91,8 @@ if(!isset($admin_id)){
          $numbers_of_products = $select_products->rowCount();
       ?>
       <h3><?= $numbers_of_products; ?></h3>
-      <p>products added</p>
-      <a href="products.php" class="btn">see products</a>
+      <p>Sản phẩm</p>
+      <a href="products.php" class="btn">Xem sản phẩm</a>
    </div>
 
    <div class="box">
@@ -102,8 +102,8 @@ if(!isset($admin_id)){
          $numbers_of_users = $select_users->rowCount();
       ?>
       <h3><?= $numbers_of_users; ?></h3>
-      <p>users accounts</p>
-      <a href="users_accounts.php" class="btn">see users</a>
+      <p>Tài khoản người dùng</p>
+      <a href="users_accounts.php" class="btn">Xem người dùng</a>
    </div>
 
    <div class="box">
@@ -113,8 +113,8 @@ if(!isset($admin_id)){
          $numbers_of_admins = $select_admins->rowCount();
       ?>
       <h3><?= $numbers_of_admins; ?></h3>
-      <p>admins</p>
-      <a href="admin_accounts.php" class="btn">see admins</a>
+      <p>Admin</p>
+      <a href="admin_accounts.php" class="btn">Xem admin</a>
    </div>
 
    <div class="box">
@@ -124,8 +124,8 @@ if(!isset($admin_id)){
          $numbers_of_messages = $select_messages->rowCount();
       ?>
       <h3><?= $numbers_of_messages; ?></h3>
-      <p>new messages</p>
-      <a href="messages.php" class="btn">see messages</a>
+      <p>Lời nhắn mới</p>
+      <a href="messages.php" class="btn">Xem lời nhắn</a>
    </div>
 
    </div>
