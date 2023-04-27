@@ -100,7 +100,7 @@ include 'components/add_cart.php';
          <h3>coffee</h3>
       </a>
 
-      <a href="category.php?category=drinks" class="box">
+      <a href="category.php?category=smoothie" class="box">
          <img src="images/cat3.png" alt="">
          <h3>Sinh tố</h3>
       </a>
