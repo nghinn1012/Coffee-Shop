@@ -28,10 +28,10 @@ if(isset($_POST['submit'])){
    $row = $select_user->fetch(PDO::FETCH_ASSOC);
 
    if($select_user->rowCount() > 0){
-      $message[] = 'email or number already exists!';
+      $message[] = 'email hoặc sđt đã tồn tại!';
    }else{
       if($pass != $cpass){
-         $message[] = 'confirm password not matched!';
+         $message[] = 'Xác nhận mật khẩu không khớp!';
       }else{
          $insert_user = $conn->prepare("INSERT INTO `users`(name, email, number, password) VALUES(?,?,?,?)");
          $insert_user->execute([$name, $email, $number, $cpass]);
@@ -55,7 +55,7 @@ if(isset($_POST['submit'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>register</title>
+   <title>Đăng kí</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -73,14 +73,14 @@ if(isset($_POST['submit'])){
 <section class="form-container">
 
    <form action="" method="post">
-      <h3>register now</h3>
-      <input type="text" name="name" required placeholder="enter your name" class="box" maxlength="50">
-      <input type="email" name="email" required placeholder="enter your email" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
-      <input type="number" name="number" required placeholder="enter your number" class="box" min="0" max="9999999999" maxlength="10">
-      <input type="password" name="pass" required placeholder="enter your password" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
-      <input type="password" name="cpass" required placeholder="confirm your password" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
+      <h3>Đăng kí</h3>
+      <input type="text" name="name" required placeholder="Họ và tên" class="box" maxlength="50">
+      <input type="email" name="email" required placeholder="Email" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="number" name="number" required placeholder="Số điện thoại" class="box" min="0" max="9999999999" maxlength="10">
+      <input type="password" name="pass" required placeholder="Mật khẩu mới" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="password" name="cpass" required placeholder="Nhập lại mật khẩu" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
       <input type="submit" value="register now" name="submit" class="btn">
-      <p>already have an account? <a href="login.php">login now</a></p>
+      <p>Bạn đã có tài khoản? <a href="login.php">Đăng nhập ngay</a></p>
    </form>
 
 </section>
