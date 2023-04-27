@@ -82,12 +82,12 @@ if(isset($_POST['submit'])){
 <section class="form-container">
 
    <form action="" method="POST">
-      <h3>update profile</h3>
+      <h3>cập nhật thông tin</h3>
       <input type="text" name="name" maxlength="20" class="box" oninput="this.value = this.value.replace(/\s/g, '')" placeholder="<?= $fetch_profile['name']; ?>">
       <input type="password" name="old_pass" maxlength="20" placeholder="nhập mật khẩu cũ" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
       <input type="password" name="new_pass" maxlength="20" placeholder="nhập mật khẩu mới" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
       <input type="password" name="confirm_pass" maxlength="20" placeholder="xác nhận mật khẩu mới" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
-      <input type="submit" value="update now" name="submit" class="btn">
+      <input type="submit" value="cập nhật" name="submit" class="btn">
    </form>
 
 </section>

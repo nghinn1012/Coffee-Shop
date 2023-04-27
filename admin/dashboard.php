@@ -42,7 +42,7 @@ if(!isset($admin_id)){
    <div class="box">
       <h3>Xin chào!</h3>
       <p><?= $fetch_profile['name']; ?></p>
-      <a href="update_profile.php" class="btn">Cập nhật thông tin</a>
+      <a href="update_profile.php" class="btn">Cập nhật</a>
    </div>
 
    <div class="box">
@@ -55,7 +55,7 @@ if(!isset($admin_id)){
          }
       ?>
       <h3><span>$</span><?= $total_pendings; ?><span>/-</span></h3>
-      <p>Tổng đơn hàng đang chờ</p>
+      <p>Đơn hàng đang chờ</p>
       <a href="placed_orders.php" class="btn">Xem đơn hàng</a>
    </div>
 
@@ -69,7 +69,7 @@ if(!isset($admin_id)){
          }
       ?>
       <h3><span>$</span><?= $total_completes; ?><span>/-</span></h3>
-      <p>Tổng đơn hàng hoàn thành</p>
+      <p>Đơn hàng hoàn thành</p>
       <a href="placed_orders.php" class="btn">Xem đơn hàng</a>
    </div>
 

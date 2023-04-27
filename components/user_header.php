@@ -48,18 +48,18 @@ if(isset($message)){
          ?>
          <p class="name"><?= $fetch_profile['name']; ?></p>
          <div class="flex">
-            <a href="profile.php" class="btn">profile</a>
-            <a href="components/user_logout.php" onclick="return confirm('logout from this website?');" class="delete-btn">logout</a>
+            <a href="profile.php" class="btn">Xem</a>
+            <a href="components/user_logout.php" onclick="return confirm('logout from this website?');" class="delete-btn">Thoát</a>
          </div>
          <p class="account">
-            <a href="login.php">LOGIN</a> or
-            <a href="register.php">REGISTER</a>
+            <a href="login.php">ĐĂNG NHẬP</a> hoặc
+            <a href="register.php">ĐĂNG KÝ</a>
          </p> 
          <?php
             }else{
          ?>
-            <p class="name">PLEASE LOGIN FIRST!</p>
-            <a href="login.php" class="btn">LOGIN</a>
+            <p class="name">VUI LÒNG ĐĂNG NHẬP</p>
+            <a href="login.php" class="btn">ĐĂNG NHẬP</a>
          <?php
           }
          ?>

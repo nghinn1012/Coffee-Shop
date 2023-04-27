@@ -81,7 +81,7 @@ if(isset($_GET['delete'])){
             <option value="đã hoàn thành">đã hoàn thành</option>
          </select>
          <div class="flex-btn">
-            <input type="submit" value="update" class="btn" name="update_payment">
+            <input type="submit" value="update" class="btn" name="Update đơn hàng">
             <a href="placed_orders.php?delete=<?= $fetch_orders['id']; ?>" class="delete-btn" onclick="return confirm('delete this order?');">delete</a>
          </div>
       </form>

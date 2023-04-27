@@ -63,7 +63,7 @@ if(isset($_SESSION['user_id'])){
       <p>Phương thức thanh toán : <span><?= $fetch_orders['method']; ?></span></p>
       <p>Đơn hàng của bạn : <span><?= $fetch_orders['total_products']; ?></span></p>
       <p>Thanh toán : <span>$<?= $fetch_orders['total_price']; ?>/-</span></p>
-      <p>Trạng thái đơn hàng : <span style="color:<?php if($fetch_orders['payment_status'] == 'pending'){ echo 'red'; }else{ echo 'green'; }; ?>"><?= $fetch_orders['payment_status']; ?></span> </p>
+      <p>Trạng thái đơn hàng : <span style="color:<?php if($fetch_orders['payment_status'] == 'đang chờ'){ echo 'red'; }else{ echo 'green'; }; ?>"><?= $fetch_orders['payment_status']; ?></span> </p>
    </div>
    <?php
       }

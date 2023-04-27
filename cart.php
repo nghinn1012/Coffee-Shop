@@ -60,15 +60,15 @@ $grand_total = 0;
 <!-- header section ends -->
 
 <div class="heading">
-   <h3>shopping cart</h3>
-   <p><a href="home.php">home</a> <span> / cart</span></p>
+   <h3>Giỏ hàng</h3>
+   <p><a href="home.php">Trang chủ</a> <span> / Giỏ hàng</span></p>
 </div>
 
 <!-- shopping cart section starts  -->
 
 <section class="products">
 
-   <h1 class="title">your cart</h1>
+   <h1 class="title">Giỏ hàng của bạn</h1>
 
    <div class="box-container">
 
@@ -90,28 +90,28 @@ $grand_total = 0;
             <input type="number" name="qty" class="qty" min="1" max="99" value="<?= $fetch_cart['quantity']; ?>" maxlength="2">
             <button type="submit" class="fas fa-edit" name="update_qty"></button>
          </div>
-         <div class="sub-total"> sub total : <span>$<?= $sub_total = ($fetch_cart['price'] * $fetch_cart['quantity']); ?>/-</span> </div>
+         <div class="sub-total"> Tổng : <span>$<?= $sub_total = ($fetch_cart['price'] * $fetch_cart['quantity']); ?>/-</span> </div>
       </form>
       <?php
                $grand_total += $sub_total;
             }
          }else{
-            echo '<p class="empty">your cart is empty</p>';
+            echo '<p class="empty">Giỏ hàng trống</p>';
          }
       ?>
 
    </div>
 
    <div class="cart-total">
-      <p>cart total : <span>$<?= $grand_total; ?></span></p>
-      <a href="checkout.php" class="btn <?= ($grand_total > 1)?'':'disabled'; ?>">proceed to checkout</a>
+      <p>Phải trả: <span>$<?= $grand_total; ?></span></p>
+      <a href="checkout.php" class="btn <?= ($grand_total > 1)?'':'disabled'; ?>">Thanh toán</a>
    </div>
 
    <div class="more-btn">
       <form action="" method="post">
-         <button type="submit" class="delete-btn <?= ($grand_total > 1)?'':'disabled'; ?>" name="delete_all" onclick="return confirm('delete all from cart?');">delete all</button>
+         <button type="submit" class="delete-btn <?= ($grand_total > 1)?'':'disabled'; ?>" name="delete_all" onclick="return confirm('delete all from cart?');">Xoá tất cả</button>
       </form>
-      <a href="menu.php" class="btn">continue shopping</a>
+      <a href="menu.php" class="btn">Xem tiếp sản phẩm</a>
    </div>
 
 </section>
