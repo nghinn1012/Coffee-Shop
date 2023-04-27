@@ -43,6 +43,7 @@ include 'components/add_cart.php';
       <div class="swiper-wrapper">
 
          <div class="swiper-slide slide">
+            <!-- thu commit code -->
             <!-- <div class="content">
                <span>order online</span>
                <h3>delicious pizza</h3>
