@@ -265,6 +265,7 @@ section{
 }
 
 .hero {
+   background-color: var(--bg);
    padding: 0% !important;
 }
 

@@ -91,10 +91,10 @@ if(isset($_POST['update'])){
       <input type="number" min="0" max="9999999999" required placeholder="enter product price" name="price" onkeypress="if(this.value.length == 10) return false;" class="box" value="<?= $fetch_products['price']; ?>">
       <span>update category</span>
       <select name="category" class="box" required>
-         <option selected value="<?= $fetch_products['category']; ?>"><?= $fetch_products['category']; ?></option>
-         <option value="main dish">main dish</option>
+         <option selected value="<?= $fetch_products['category']; ?>">select category---</option>
          <option value="fast food">fast food</option>
-         <option value="drinks">drinks</option>
+         <option value="coffee">coffee</option>
+         <option value="smoothie">smoothie</option>
          <option value="desserts">desserts</option>
       </select>
       <span>update image</span>
