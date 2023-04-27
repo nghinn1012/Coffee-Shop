@@ -366,7 +366,7 @@ section{
 
 .products .box-container .box{
    border:var(--border);
-   padding:1.5rem;
+   padding: 1.5rem;
    position: relative;
    overflow: hidden;
 }

@@ -90,9 +90,9 @@ include 'components/add_cart.php';
 
    <div class="box-container">
 
-      <a href="category.php?category=fast food" class="box">
-         <img src="images/cat1.png" alt="">
-         <h3>Đồ ăn nhanh</h3>
+      <a href="category.php?category=tea" class="box">
+         <img src="images/cat-1.png" alt="">
+         <h3>Trà</h3>
       </a>
 
       <a href="category.php?category=coffee" class="box">

@@ -92,7 +92,7 @@ if(isset($_POST['update'])){
       <span>update category</span>
       <select name="category" class="box" required>
          <option selected value="<?= $fetch_products['category']; ?>">select category---</option>
-         <option value="fast food">fast food</option>
+         <option value="tea">trà</option>
          <option value="coffee">coffee</option>
          <option value="smoothie">smoothie</option>
          <option value="desserts">desserts</option>
