@@ -20,7 +20,7 @@ include 'components/add_cart.php';
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>menu</title>
+   <title>Thực đơn</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -36,7 +36,7 @@ include 'components/add_cart.php';
 <!-- header section ends -->
 
 <div class="heading">
-   <h3>our menu</h3>
+   <h3>Thực đơn</h3>
    <p><a href="home.php">home</a> <span> / menu</span></p>
 </div>
 
@@ -44,7 +44,7 @@ include 'components/add_cart.php';
 
 <section class="products">
 
-   <h1 class="title">latest dishes</h1>
+   <h1 class="title">Mới nhất</h1>
 
    <div class="box-container">
 

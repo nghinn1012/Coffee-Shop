@@ -20,7 +20,7 @@ include 'components/add_cart.php';
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>home</title>
+   <title>Trang chủ</title>
 
    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 
@@ -43,7 +43,7 @@ include 'components/add_cart.php';
       <div class="swiper-wrapper">
 
          <div class="swiper-slide slide">
-            <!-- thu commit code -->
+            <!-- thu commit code  day nè, nó được rồi, chỉ có cái mãi nó k hiện-->
             <!-- <div class="content">
                <span>order online</span>
                <h3>delicious pizza</h3>
@@ -86,13 +86,13 @@ include 'components/add_cart.php';
 
 <section class="category">
 
-   <h1 class="title">food category</h1>
+   <h1 class="title">Danh mục</h1>
 
    <div class="box-container">
 
       <a href="category.php?category=fast food" class="box">
          <img src="images/cat1.png" alt="">
-         <h3>fast food</h3>
+         <h3>Đồ ăn nhanh</h3>
       </a>
 
       <a href="category.php?category=coffee" class="box">
@@ -102,12 +102,12 @@ include 'components/add_cart.php';
 
       <a href="category.php?category=drinks" class="box">
          <img src="images/cat3.png" alt="">
-         <h3>smoothie</h3>
+         <h3>Sinh tố</h3>
       </a>
 
       <a href="category.php?category=desserts" class="box">
          <img src="images/cat4.png" alt="">
-         <h3>desserts</h3>
+         <h3>Món tráng miệng</h3>
       </a>
 
    </div>
@@ -119,7 +119,7 @@ include 'components/add_cart.php';
 
 <section class="products">
 
-   <h1 class="title">latest dishes</h1>
+   <h1 class="title">mới nhất</h1>
 
    <div class="box-container">
 
@@ -154,7 +154,7 @@ include 'components/add_cart.php';
    </div>
 
    <div class="more-btn">
-      <a href="menu.php" class="btn">view all</a>
+      <a href="menu.php" class="btn">Thêm</a>
    </div>
 
 </section>
