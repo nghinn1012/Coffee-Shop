@@ -37,7 +37,7 @@ include 'components/add_cart.php';
 
 <div class="heading">
    <h3>Thực đơn</h3>
-   <p><a href="home.php">home</a> <span> / menu</span></p>
+   <p><a href="home.php">Trang chủ</a> <span> / Thực đơn</span></p>
 </div>
 
 <!-- menu section starts  -->

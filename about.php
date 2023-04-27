@@ -36,8 +36,8 @@ if(isset($_SESSION['user_id'])){
 <!-- header section ends -->
 
 <div class="heading">
-   <h3>About us</h3>
-   <p><a href="home.php">Trang chủ</a> <span> / about</span></p>
+   <h3>Về chúng tôi</h3>
+   <p><a href="home.php">Trang chủ</a> <span> / Về chúng tôi</span></p>
 </div>
 
 <!-- about section starts  -->
@@ -52,8 +52,8 @@ if(isset($_SESSION['user_id'])){
 
       <div class="content">
          <h3>Coffee & Tea</h3>
-         <p>Choose coffee, choose your mind. <br>
-            nhà trong ngõ, since 1990.
+         <p>Chọn cà phê, chọn tâm trạng của bạn. <br>
+            nhà trong ngõ, ra đời năm 1990.
          </p>
          <a href="menu.php" class="btn">Thực đơn</a>
       </div>
