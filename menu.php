@@ -47,7 +47,6 @@ include 'components/add_cart.php';
    <h1 class="title">Mới nhất</h1>
 
    <div class="box-container">
-
       <?php
          $select_products = $conn->prepare("SELECT * FROM `products`");
          $select_products->execute();
