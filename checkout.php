@@ -97,14 +97,14 @@ if(isset($_POST['submit'])){
                $total_products = implode($cart_items);
                $grand_total += ($fetch_cart['price'] * $fetch_cart['quantity']);
       ?>
-      <p><span class="name"><?= $fetch_cart['name']; ?></span><span class="price">$<?= $fetch_cart['price']; ?> x <?= $fetch_cart['quantity']; ?></span></p>
+      <p><span class="name"><?= $fetch_cart['name']; ?></span><span class="price"><?= $fetch_cart['price']; ?> x <?= $fetch_cart['quantity']; ?></span></p>
       <?php
             }
          }else{
             echo '<p class="empty">Giỏ hàng của bạn trống</p>';
          }
       ?>
-      <p class="grand-total"><span class="name">Tổng thanh toán :</span><span class="price">$<?= $grand_total; ?></span></p>
+      <p class="grand-total"><span class="name">Tổng thanh toán :</span><span class="price"><?= $grand_total; ?></span></p>
       <a href="cart.php" class="btn">Xem giỏ hàng</a>
    </div>
 
