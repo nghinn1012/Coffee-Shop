@@ -50,6 +50,7 @@ section{
    width: 100%;
    /* max-width: 1200px; */
    padding:2rem;
+   
 }
 
 .title{
@@ -356,6 +357,16 @@ section{
 .products {
    background-color: var(--bg);
 }
+
+.products .filt{
+   font-size: 2rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100%; /* Set height of container to fill viewport */
+}
+
+
 
 .products .box-container{
    display: grid;
