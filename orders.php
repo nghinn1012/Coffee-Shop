@@ -19,7 +19,7 @@ if(isset($_SESSION['user_id'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Chọn món</title>
+   <title>Đơn hàng</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -62,7 +62,7 @@ if(isset($_SESSION['user_id'])){
       <p>Địa chỉ : <span><?= $fetch_orders['address']; ?></span></p>
       <p>Phương thức thanh toán : <span><?= $fetch_orders['method']; ?></span></p>
       <p>Đơn hàng của bạn : <span><?= $fetch_orders['total_products']; ?></span></p>
-      <p>Thanh toán : <span>$<?= $fetch_orders['total_price']; ?>/-</span></p>
+      <p>Thanh toán : <span><?= $fetch_orders['total_price']; ?></span></p>
       <p>Trạng thái đơn hàng : <span style="color:<?php if($fetch_orders['payment_status'] == 'đang chờ'){ echo 'red'; }else{ echo 'green'; }; ?>"><?= $fetch_orders['payment_status']; ?></span> </p>
    </div>
    <?php

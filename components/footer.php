@@ -17,9 +17,9 @@
             Địa điểm
         </div>
         <div>
-            <a href="https://goo.gl/maps/rUd2truRkpYy3QeJA" class="heading-h2">HN, Xuân Thủy <br></a>
-            <a href="https://goo.gl/maps/hKQanZWusZWKNaTj7" class="heading-h2">SG, Bùi Thị Xuân <br></a>
-            <a href="https://goo.gl/maps/y5SGERnjrDGjv6Z3A" class="heading-h2">HN, Tôn Thất Thuyết </a>
+            <a href="https://goo.gl/maps/V4D1H4k58aKKZaDT8" class="heading-h2">HN, Xuân Thủy <br></a>
+            <a href="https://goo.gl/maps/eeHDvdV1bpq4s2Ja9" class="heading-h2">SG, Bùi Thị Xuân <br></a>
+            <a href="https://goo.gl/maps/LhqXeMSRtuR9dhjr5" class="heading-h2">HN, Tôn Thất Thuyết </a>
         </div>
     </div>
 
