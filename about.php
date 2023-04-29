@@ -121,7 +121,7 @@ if(isset($_SESSION['user_id'])){
 
          <div class="swiper-slide slide">
             <img src="images/Khánh.jpg" alt="">
-            <p>Ngon, hợp với giá tiền. Đồ ăn nhanh nhưng lại không hề bị ngấy, cảm giác đỡ béo</p>
+            <p>Ngon, hợp với giá tiền. Trà kem thanh ngọt, k bị ngấy, cảm giác đỡ béo</p>
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -155,12 +155,12 @@ if(isset($_SESSION['user_id'])){
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>Kim 73kg</h3>
+            <h3>Kim 90kg</h3>
          </div>
 
          <div class="swiper-slide slide">
             <img src="images/pic-5.png" alt="">
-            <p>Quán tủ của tui ^^ Tuần nào cũng phải ủng hộ vài bữa </p>
+            <p>Quán tủ của tui ^^ đồ uống ngon quá trời, trà sen vàng ngang 2len luôn</p>
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
