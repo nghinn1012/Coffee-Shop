@@ -42,7 +42,7 @@ if(isset($_POST['submit'])){
 </head>
 <body>
    
-<?php include 'view/user_header.php' ?>
+<?php include '../view/user_header.php' ?>
 
 <section class="form-container">
 

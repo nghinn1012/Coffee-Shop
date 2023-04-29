@@ -1,6 +1,6 @@
 <?php
 
-include '../components/connect.php';
+include '../asset/connect.php';
 
 session_start();
 
@@ -75,7 +75,7 @@ if(isset($_POST['submit'])){
 </head>
 <body>
 
-<?php include '../components/admin_header.php' ?>
+<?php include '../view/admin_header.php' ?>
 
 <!-- admin profile update section starts  -->
 

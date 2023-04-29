@@ -1,6 +1,6 @@
 <?php
 
-include 'components/connect.php';
+include 'asset/connect.php';
 
 session_start();
 
@@ -56,7 +56,7 @@ $grand_total = 0;
 <body>
    
 <!-- header section starts  -->
-<?php include 'components/user_header.php'; ?>
+<?php include 'view/user_header.php'; ?>
 <!-- header section ends -->
 
 <div class="heading">
@@ -128,7 +128,7 @@ $grand_total = 0;
 
 
 <!-- footer section starts  -->
-<?php include 'components/footer.php'; ?>
+<?php include 'view/footer.php'; ?>
 <!-- footer section ends -->
 
 

@@ -15,8 +15,8 @@ if(isset($message)){
 
    <section class="flex">
 
-   <a href="../home.php">
-            <img class="logo" src="http://localhost/final/Coffee-Shop/images/logopn.png" alt="error">
+   <a href="home.php">
+            <img class="logo" src="http://localhost/final/Coffee-Shop/Coffee-Shop/images/logopn.png" alt="error">
         </a>
 
       <nav class="navbar">
@@ -49,17 +49,17 @@ if(isset($message)){
          <p class="name"><?= $fetch_profile['name']; ?></p>
          <div class="flex">
             <a href="profile.php" class="btn">Xem</a>
-            <a href="components/user_logout.php" onclick="return confirm('logout from this website?');" class="delete-btn">Thoát</a>
+            <a href="view/user_logout.php" onclick="return confirm('logout from this website?');" class="delete-btn">Thoát</a>
          </div>
          <p class="account">
-            <a href="login.php">ĐĂNG NHẬP</a> hoặc
-            <a href="register.php">ĐĂNG KÝ</a>
+            <a href="../model/login.php">ĐĂNG NHẬP</a> hoặc
+            <a href="../model/register.php">ĐĂNG KÝ</a>
          </p> 
          <?php
             }else{
          ?>
             <p class="name">VUI LÒNG ĐĂNG NHẬP</p>
-            <a href="login.php" class="btn">ĐĂNG NHẬP</a>
+            <a href="../model/login.php" class="btn">ĐĂNG NHẬP</a>
          <?php
           }
          ?>

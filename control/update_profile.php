@@ -98,7 +98,7 @@ if(isset($_POST['submit'])){
 <body>
    
 <!-- header section starts  -->
-<?php include 'view/user_header.php'; ?>
+<?php include '../view/user_header.php'; ?>
 <!-- header section ends -->
 
 <section class="form-container update-form">

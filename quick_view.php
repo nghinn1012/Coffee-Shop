@@ -1,6 +1,6 @@
 <?php
 
-include 'components/connect.php';
+include 'asset/connect.php';
 
 session_start();
 
@@ -31,7 +31,7 @@ include 'components/add_cart.php';
 </head>
 <body>
    
-<?php include 'components/user_header.php'; ?>
+<?php include 'view/user_header.php'; ?>
 
 <section class="quick-view">
 
@@ -82,7 +82,7 @@ include 'components/add_cart.php';
 
 
 
-<?php include 'components/footer.php'; ?>
+<?php include 'view/footer.php'; ?>
 
 
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>

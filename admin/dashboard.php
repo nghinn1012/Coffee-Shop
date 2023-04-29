@@ -1,6 +1,6 @@
 <?php
 
-include '../components/connect.php';
+include '../asset/connect.php';
 
 session_start();
 
@@ -29,7 +29,7 @@ if(!isset($admin_id)){
 </head>
 <body>
 
-<?php include '../components/admin_header.php' ?>
+<?php include '../view/admin_header.php' ?>
 
 <!-- admin dashboard section starts  -->
 

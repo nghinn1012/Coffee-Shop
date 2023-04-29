@@ -1,6 +1,6 @@
 <?php
 
-include '../components/connect.php';
+include '../asset/connect.php';
 
 session_start();
 
@@ -36,7 +36,7 @@ if(isset($_GET['delete'])){
 </head>
 <body>
 
-<?php include '../components/admin_header.php' ?>
+<?php include '../view/admin_header.php' ?>
 
 <!-- messages section starts  -->
 

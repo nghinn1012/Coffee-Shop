@@ -1,6 +1,6 @@
 <?php
 
-include 'components/connect.php';
+include 'asset/connect.php';
 
 session_start();
 
@@ -10,7 +10,7 @@ if(isset($_SESSION['user_id'])){
    $user_id = '';
 };
 
-include 'components/add_cart.php';
+include 'control/add_cart.php';
 
 ?>
 
@@ -33,7 +33,7 @@ include 'components/add_cart.php';
 </head>
 <body>
 
-<?php include 'components/user_header.php'; ?>
+<?php include 'view/user_header.php'; ?>
 
 
 <section class="hero">
@@ -176,7 +176,7 @@ include 'components/add_cart.php';
 
 
 
-<?php include 'components/footer.php'; ?>
+<?php include 'view/footer.php'; ?>
 
 
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>

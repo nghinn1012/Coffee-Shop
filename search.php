@@ -1,6 +1,6 @@
 <?php
 
-include 'components/connect.php';
+include 'asset/connect.php';
 
 session_start();
 
@@ -32,7 +32,7 @@ include 'components/add_cart.php';
 <body>
    
 <!-- header section starts  -->
-<?php include 'components/user_header.php'; ?>
+<?php include 'view/user_header.php'; ?>
 <!-- header section ends -->
 
 <!-- search form section starts  -->
@@ -97,7 +97,7 @@ include 'components/add_cart.php';
 
 
 <!-- footer section starts  -->
-<?php include 'components/footer.php'; ?>
+<?php include 'view/footer.php'; ?>
 <!-- footer section ends -->
 
 
