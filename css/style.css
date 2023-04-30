@@ -359,11 +359,12 @@ section{
 }
 
 .products .filt{
+   /* background-color: #c09807; */
    size: 500px;
    font-size: 2rem;
    display: flex;
-   /* align-items: center; */
-   /* justify-content: center; */
+   align-items: center; 
+   justify-content: center;
    height: 100%; /* Set height of container to fill viewport */
    margin-top: 30px;
    margin-bottom: 20px;
@@ -372,17 +373,26 @@ section{
 
 .products .filt .form-sort {
    /* background-color: transparent; */
-   border: none;
+   /* border: none; */
+   border-color: #c09807;
    padding: 0 1em 0 0;
+   border-radius: 4px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
    /* width: 100%; */
    font-size: inherit;
-   cursor: inherit; 
+   /* cursor: inherit;  */
    line-height: inherit;
    margin-right: 30px;
    margin-bottom: 30px;
    margin-left: 50px; 
+   margin-top: 30px;
 }
 
+.form-sort button:hover {
+   background-color: #555;
+   color: #fff;
+}
 
 
 

@@ -48,33 +48,44 @@ include 'control/add_cart.php';
 
       <h1 class="title">Mới nhất</h1>
       <div class="filt">
-         <p> Chọn loại sắp xếp
+         <p style="font-weight: bolder;"> Chọn loại sắp xếp
          </p>
          <form method="GET">
-         <select class = "form-sort" id="sort-by-price" name="sort-by-price" style="width:200px">
-         <option value="">Giá</option>
-    <option value="price-asc">Giảm dần</option>
-    <option value="price-desc">Tăng dần</option>
-         </select>
-    
-            
-               <!-- <label for="sort-by-price"></label>
+            <select class="form-sort" id="sort-by-price" name="sort-by-price" style="width:200px">
+               <option value="">Giá</option>
+               <option value="price-asc">Tăng dần</option>
+               <option value="price-desc">Giảm dần</option>
+               <script>
+                  const sortSelect = document.getElementById('sort-by-price');
+                  sortSelect.addEventListener('change', function() {
+                     this.form.submit();
+                  });
+               </script>
+            </select>
+
+
+            <!-- <label for="sort-by-price"></label>
             <select id="sort-by-price" name="sort-by-price">
                <option value="">Chọn loại sắp xếp theo giá</option>
                <option value="price-desc">Từ cao đến thấp</option>
                <option value="price-asc">Từ thấp đến cao</option>
             </select> -->
-               <!-- <button type="submit">Lọc</button> -->
+            <!-- <button type="submit">Lọc</button> -->
          </form>
 
          <form method="GET">
             <label for="sort-by-name"></label>
-            <select class = "form-sort" id="sort-by-name" name="sort-by-name">
+            <select class="form-sort" id="sort-by-name" name="sort-by-name">
                <option value="">Tên</option>
                <option value="name-asc">A-Z</option>
                <option value="name-desc">Z-A</option>
+               <script>
+                  const nameSelect = document.getElementById('sort-by-name');
+                  nameSelect.addEventListener('change', function() {
+                     this.form.submit();
+                  });
+               </script>
             </select>
-            <button type="submit" style="font-size: 16px;">Lọc</button>
          </form>
       </div>
       <div class="box-container">
