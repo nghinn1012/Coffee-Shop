@@ -48,24 +48,33 @@ include 'control/add_cart.php';
 
       <h1 class="title">Mới nhất</h1>
       <div class="filt">
+         <p> Chọn loại sắp xếp
+         </p>
          <form method="GET">
-            <label for="sort-by-price"></label>
+         <select class = "form-sort" id="sort-by-price" name="sort-by-price" style="width:200px">
+         <option value="">Giá</option>
+    <option value="price-asc">Giảm dần</option>
+    <option value="price-desc">Tăng dần</option>
+         </select>
+    
+            
+               <!-- <label for="sort-by-price"></label>
             <select id="sort-by-price" name="sort-by-price">
                <option value="">Chọn loại sắp xếp theo giá</option>
                <option value="price-desc">Từ cao đến thấp</option>
                <option value="price-asc">Từ thấp đến cao</option>
-            </select>
-            <button type="submit">Lọc</button>
+            </select> -->
+               <!-- <button type="submit">Lọc</button> -->
          </form>
 
          <form method="GET">
             <label for="sort-by-name"></label>
-            <select id="sort-by-name" name="sort-by-name">
-               <option value="">Chọn loại sắp xếp theo tên</option>
+            <select class = "form-sort" id="sort-by-name" name="sort-by-name">
+               <option value="">Tên</option>
                <option value="name-asc">A-Z</option>
                <option value="name-desc">Z-A</option>
             </select>
-            <button type="submit">Lọc</button>
+            <button type="submit" style="font-size: 16px;">Lọc</button>
          </form>
       </div>
       <div class="box-container">

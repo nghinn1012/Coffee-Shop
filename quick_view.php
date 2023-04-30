@@ -10,7 +10,7 @@ if(isset($_SESSION['user_id'])){
    $user_id = '';
 };
 
-include 'components/add_cart.php';
+include 'control/add_cart.php';
 
 ?>
 

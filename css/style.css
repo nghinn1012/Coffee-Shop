@@ -359,12 +359,30 @@ section{
 }
 
 .products .filt{
+   size: 500px;
    font-size: 2rem;
    display: flex;
-   align-items: center;
-   justify-content: center;
+   /* align-items: center; */
+   /* justify-content: center; */
    height: 100%; /* Set height of container to fill viewport */
+   margin-top: 30px;
+   margin-bottom: 20px;
+   margin-left: 50px;
 }
+
+.products .filt .form-sort {
+   /* background-color: transparent; */
+   border: none;
+   padding: 0 1em 0 0;
+   /* width: 100%; */
+   font-size: inherit;
+   cursor: inherit; 
+   line-height: inherit;
+   margin-right: 30px;
+   margin-bottom: 30px;
+   margin-left: 50px; 
+}
+
 
 
 

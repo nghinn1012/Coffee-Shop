@@ -16,7 +16,7 @@ if(isset($message)){
    <section class="flex">
 
    <a href="home.php">
-            <img class="logo" src="http://localhost/final/Coffee-Shop/Coffee-Shop/images/logopn.png" alt="error">
+            <img class="logo" src="http://localhost/final/Coffee-Shop/images/logopn.png" alt="error">
         </a>
 
       <nav class="navbar">

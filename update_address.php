@@ -13,7 +13,7 @@ if(isset($_SESSION['user_id'])){
 
 if(isset($_POST['submit'])){
 
-   $address = $_POST['flat'] .', '.$_POST['building'].', '.$_POST['area'].', '.$_POST['town'] .', '. $_POST['city'] .', '. $_POST['state'] .', '. $_POST['country'] .' - '. $_POST['pin_code'];
+   $address = $_POST['flat'] .', '.$_POST['building'].', '.$_POST['area'].', '.$_POST['town'] .', '. $_POST['city'] .', '. $_POST['state'];
    $address = filter_var($address, FILTER_SANITIZE_STRING);
 
    $update_address = $conn->prepare("UPDATE `users` set address = ? WHERE id = ?");
@@ -54,8 +54,8 @@ if(isset($_POST['submit'])){
       <input type="text" class="box" placeholder="phường" required maxlength="50" name="town">
       <input type="text" class="box" placeholder="quận" required maxlength="50" name="city">
       <input type="text" class="box" placeholder="thành phố" required maxlength="50" name="state">
-      <!-- <input type="text" class="box" placeholder="country name" required maxlength="50" name="country"> -->
-      <!-- <input type="number" class="box" placeholder="pin code" required max="999999" min="0" maxlength="6" name="pin_code"> -->
+      <!-- <input type="text" class="box" placeholder="country name" required maxlength="50" name="country"> 
+      <input type="number" class="box" placeholder="pin code" required max="999999" min="0" maxlength="6" name="pin_code">  -->
       <input type="submit" value="lưu địa chỉ" name="submit" class="btn">
    </form>
 
