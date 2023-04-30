@@ -52,14 +52,14 @@ if(isset($message)){
             <a href="view/user_logout.php" onclick="return confirm('logout from this website?');" class="delete-btn">Thoát</a>
          </div>
          <p class="account">
-            <a href="../model/login.php">ĐĂNG NHẬP</a> hoặc
-            <a href="../model/register.php">ĐĂNG KÝ</a>
+            <a href="login.php">ĐĂNG NHẬP</a> hoặc
+            <a href="register.php">ĐĂNG KÝ</a>
          </p> 
          <?php
             }else{
          ?>
             <p class="name">VUI LÒNG ĐĂNG NHẬP</p>
-            <a href="../model/login.php" class="btn">ĐĂNG NHẬP</a>
+            <a href="login.php" class="btn">ĐĂNG NHẬP</a>
          <?php
           }
          ?>
