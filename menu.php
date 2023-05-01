@@ -128,7 +128,7 @@ include 'control/add_cart.php';
       <?php
             }
          } else {
-            echo '<p class="empty">no products added yet!</p>';
+            echo '<p class="empty">Không có sản phẩm!</p>';
          }
       ?>
 

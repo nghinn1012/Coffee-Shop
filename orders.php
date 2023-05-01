@@ -47,7 +47,7 @@ if(isset($_SESSION['user_id'])){
 
    <?php
       if($user_id == ''){
-         echo '<p class="empty">please login to see your orders</p>';
+         echo '<p class="empty">Đăng nhập để xem các đơn hàng</p>';
       }else{
          $select_orders = $conn->prepare("SELECT * FROM `orders` WHERE user_id = ?");
          $select_orders->execute([$user_id]);
@@ -68,7 +68,7 @@ if(isset($_SESSION['user_id'])){
    <?php
       }
       }else{
-         echo '<p class="empty">no orders placed yet!</p>';
+         echo '<p class="empty">Không có đơn đặt hàng!</p>';
       }
       }
    ?>

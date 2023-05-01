@@ -25,7 +25,7 @@ if(isset($_POST['submit'])){
       $_SESSION['user_id'] = $row['id'];
       header('location:home.php');
    }else{
-      $message[] = 'incorrect username or password!';
+      $message[] = 'Tên đăng nhập hoặc mật khẩu sai!';
    }
 
 }
@@ -58,8 +58,8 @@ if(isset($_POST['submit'])){
    <!-- <div class = "bg-image-login"> -->
    <form action="" method="post">
       <h3>Đăng nhập</h3>
-      <input type="email" name="email" required placeholder="enter your email" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
-      <input type="password" name="pass" required placeholder="enter your password" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="email" name="email" required placeholder="Nhập tên đăng nhập" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="password" name="pass" required placeholder="Nhập mật khẩu" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
       <input type="submit" value="Đăng nhập" name="submit" class="btn">
       <p>Bạn chưa có tài khoản, <a href="register.php">đăng kí ngay</a></p>
    </form>

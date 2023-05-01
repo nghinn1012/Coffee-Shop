@@ -43,7 +43,7 @@ if(isset($message)){
             <a href="admin_login.php" class="option-btn">Đăng nhập</a>
             <a href="register_admin.php" class="option-btn">Đăng ký</a>
          </div>
-         <a href="../view/admin_logout.php" onclick="return confirm('logout from this website?');" class="delete-btn">logout</a>
+         <a href="../view/admin_logout.php" onclick="return confirm('Đăng xuất khỏi trang web?');" class="delete-btn">logout</a>
       </div>
 
    </section>

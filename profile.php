@@ -45,7 +45,7 @@ if(isset($_SESSION['user_id'])){
       <p><i class="fas fa-phone"></i><span><?= $fetch_profile['number']; ?></span></p>
       <p><i class="fas fa-envelope"></i><span><?= $fetch_profile['email']; ?></span></p>
       <a href="update_profile.php" class="btn">Cập nhật thông tin</a>
-      <p class="address"><i class="fas fa-map-marker-alt"></i><span><?php if($fetch_profile['address'] == ''){echo 'please enter your address';}else{echo $fetch_profile['address'];} ?></span></p>
+      <p class="address"><i class="fas fa-map-marker-alt"></i><span><?php if($fetch_profile['address'] == ''){echo 'Nhập địa chỉ của bạn';}else{echo $fetch_profile['address'];} ?></span></p>
       <a href="update_address.php" class="btn">Cập nhật địa chỉ</a>
    </div>
 
