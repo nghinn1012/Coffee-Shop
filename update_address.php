@@ -19,7 +19,7 @@ if(isset($_POST['submit'])){
    $update_address = $conn->prepare("UPDATE `users` set address = ? WHERE id = ?");
    $update_address->execute([$address, $user_id]);
 
-   $message[] = 'address saved!';
+   $message[] = 'Đã lưu địa chỉ!';
 
 }
 
@@ -48,9 +48,9 @@ if(isset($_POST['submit'])){
 
    <form action="" method="post">
       <h3>Địa chỉ của bạn</h3>
-      <input type="text" class="box" placeholder="phòng" required maxlength="50" name="flat">
-      <input type="text" class="box" placeholder="số nhà" required maxlength="50" name="building">
-      <input type="text" class="box" placeholder="khu" required maxlength="50" name="area">
+      <input type="text" class="box" placeholder="phòng" maxlength="50" name="flat">
+      <input type="text" class="box" placeholder="số nhà" maxlength="50" name="building">
+      <input type="text" class="box" placeholder="khu" maxlength="50" name="area">
       <input type="text" class="box" placeholder="phường" required maxlength="50" name="town">
       <input type="text" class="box" placeholder="quận" required maxlength="50" name="city">
       <input type="text" class="box" placeholder="thành phố" required maxlength="50" name="state">

@@ -32,7 +32,7 @@ if(isset($_POST['submit'])){
    if($check_cart->rowCount() > 0){
 
       if($address == ''){
-         $message[] = 'please add your address!';
+         $message[] = 'Thêm địa chỉ của bạn!';
       }else{
          
          $insert_order = $conn->prepare("INSERT INTO `orders`(user_id, name, number, email, method, address, total_products, total_price) VALUES(?,?,?,?,?,?,?,?)");
@@ -41,11 +41,11 @@ if(isset($_POST['submit'])){
          $delete_cart = $conn->prepare("DELETE FROM `cart` WHERE user_id = ?");
          $delete_cart->execute([$user_id]);
 
-         $message[] = 'order placed successfully!';
+         $message[] = 'Thêm thành công đơn đặt hàng!';
       }
       
    }else{
-      $message[] = 'your cart is empty';
+      $message[] = 'Giỏ hàng của bạn trống';
    }
 
 }

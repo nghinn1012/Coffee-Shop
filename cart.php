@@ -82,7 +82,7 @@ $grand_total = 0;
       <form action="" method="post" class="box">
          <input type="hidden" name="cart_id" value="<?= $fetch_cart['id']; ?>">
          <a href="quick_view.php?pid=<?= $fetch_cart['pid']; ?>" class="fas fa-eye"></a>
-         <button type="submit" class="fas fa-times" name="xoá" onclick="return confirm('xoá sản phẩm này?');"></button>
+         <button type="submit" class="fas fa-times" name="delete" onclick="return confirm('xoá sản phẩm này?'); "></button>
          <img src="uploaded_img/<?= $fetch_cart['image']; ?>" alt="">
          <div class="name"><?= $fetch_cart['name']; ?></div>
          <div class="flex">

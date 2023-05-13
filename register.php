@@ -77,8 +77,8 @@ if(isset($_POST['submit'])){
       <input type="text" name="name" required placeholder="Họ và tên" class="box" maxlength="50">
       <input type="email" name="email" required placeholder="Email" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
       <input type="number" name="number" required placeholder="Số điện thoại" class="box" min="0" max="9999999999" maxlength="10">
-      <input type="password" name="pass" required placeholder="Mật khẩu mới" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
-      <input type="password" name="cpass" required placeholder="Nhập lại mật khẩu" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="password" name="pass" required placeholder="Nhập mật khẩu" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="password" name="cpass" required placeholder="Xác nhận mật khẩu" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
       <input type="submit" value="register now" name="submit" class="btn">
       <p>Bạn đã có tài khoản? <a href="login.php">Đăng nhập ngay</a></p>
    </form>

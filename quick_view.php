@@ -56,12 +56,12 @@ include 'control/add_cart.php';
          <div class="price"><?= $fetch_products['price']; ?></div>
          <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
       </div>
-      <button type="submit" name="add_to_cart" class="cart-btn">add to cart</button>
+      <button type="submit" name="add_to_cart" class="cart-btn">Thêm vào giỏ hàng</button>
    </form>
    <?php
          }
       }else{
-         echo '<p class="empty">no products added yet!</p>';
+         echo '<p class="empty">Chưa có sản phẩm nào!</p>';
       }
    ?>
 

@@ -18,7 +18,7 @@ if(!isset($admin_id)){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>dashboard</title>
+   <title>Thống kê</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -35,7 +35,7 @@ if(!isset($admin_id)){
 
 <section class="dashboard">
 
-   <h1 class="heading">dashboard</h1>
+   <h1 class="heading">Thống kê</h1>
 
    <div class="box-container">
 
@@ -49,13 +49,13 @@ if(!isset($admin_id)){
       <?php
          $total_pendings = 0;
          $select_pendings = $conn->prepare("SELECT * FROM `orders` WHERE payment_status = ?");
-         $select_pendings->execute(['pending']);
+         $select_pendings->execute(['chờ xác nhận']);
          while($fetch_pendings = $select_pendings->fetch(PDO::FETCH_ASSOC)){
             $total_pendings += $fetch_pendings['total_price'];
          }
       ?>
-      <h3><span>$</span><?= $total_pendings; ?><span>/-</span></h3>
-      <p>Đơn hàng đang chờ</p>
+      <h3><span></span><?= $total_pendings; ?><span></span></h3>
+      <p>Các đơn đang chờ</p>
       <a href="placed_orders.php" class="btn">Xem tất cả</a>
    </div>
 
@@ -63,13 +63,13 @@ if(!isset($admin_id)){
       <?php
          $total_completes = 0;
          $select_completes = $conn->prepare("SELECT * FROM `orders` WHERE payment_status = ?");
-         $select_completes->execute(['completed']);
+         $select_completes->execute(['đã hoàn thành']);
          while($fetch_completes = $select_completes->fetch(PDO::FETCH_ASSOC)){
             $total_completes += $fetch_completes['total_price'];
          }
       ?>
-      <h3><span>$</span><?= $total_completes; ?><span>/-</span></h3>
-      <p>Đơn đã hoàn thành</p>
+      <h3><span></span><?= $total_completes; ?><span></span></h3>
+      <p>Doanh thu</p>
       <a href="placed_orders.php" class="btn">Xem tất cả</a>
    </div>
 

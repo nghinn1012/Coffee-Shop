@@ -19,7 +19,7 @@ if(isset($_POST['submit'])){
       $_SESSION['admin_id'] = $fetch_admin_id['id'];
       header('location:dashboard.php');
    }else{
-      $message[] = 'incorrect username or password!';
+      $message[] = 'tên đăng nhập hoặc mật khẩu sai!';
    }
 
 }
@@ -32,7 +32,7 @@ if(isset($_POST['submit'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>login</title>
+   <title>đăng nhập</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -61,8 +61,7 @@ if(isset($message)){
 <section class="form-container">
 
    <form action="" method="POST">
-      <h3>login now</h3>
-      <p>default username = <span>admin</span> & password = <span>111</span></p>
+      <h3>Đăng nhập ngay</h3>
       <input type="text" name="name" maxlength="20" required placeholder="nhập tên người dùng" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
       <input type="password" name="pass" maxlength="20" required placeholder="nhập password" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
       <input type="submit" value="đăng nhập" name="submit" class="btn">

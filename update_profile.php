@@ -30,7 +30,7 @@ if(isset($_POST['submit'])){
       $select_email = $conn->prepare("SELECT * FROM `users` WHERE email = ?");
       $select_email->execute([$email]);
       if($select_email->rowCount() > 0){
-         $message[] = 'email already taken!';
+         $message[] = 'Email đã tồn tại!';
       }else{
          $update_email = $conn->prepare("UPDATE `users` SET email = ? WHERE id = ?");
          $update_email->execute([$email, $user_id]);
@@ -41,7 +41,7 @@ if(isset($_POST['submit'])){
       $select_number = $conn->prepare("SELECT * FROM `users` WHERE number = ?");
       $select_number->execute([$number]);
       if($select_number->rowCount() > 0){
-         $message[] = 'number already taken!';
+         $message[] = 'Số điện thoại đã tồn tại!';
       }else{
          $update_number = $conn->prepare("UPDATE `users` SET number = ? WHERE id = ?");
          $update_number->execute([$number, $user_id]);
@@ -62,16 +62,16 @@ if(isset($_POST['submit'])){
 
    if($old_pass != $empty_pass){
       if($old_pass != $prev_pass){
-         $message[] = 'old password not matched!';
+         $message[] = 'Mật khẩu cũ không đúng!';
       }elseif($new_pass != $confirm_pass){
-         $message[] = 'confirm password not matched!';
+         $message[] = 'Xác nhận mật khẩu không khớp!';
       }else{
          if($new_pass != $empty_pass){
             $update_pass = $conn->prepare("UPDATE `users` SET password = ? WHERE id = ?");
             $update_pass->execute([$confirm_pass, $user_id]);
-            $message[] = 'password updated successfully!';
+            $message[] = 'Cập nhật mật khẩu thành công!';
          }else{
-            $message[] = 'please enter a new password!';
+            $message[] = 'Hãy nhập mật khẩu mới!';
          }
       }
    }  
@@ -106,11 +106,11 @@ if(isset($_POST['submit'])){
    <form action="" method="post">
       <h3>update profile</h3>
       <input type="text" name="name" placeholder="<?= $fetch_profile['name']; ?>" class="box" maxlength="50">
-      <input type="email" name="email" placeholder="<?= $fetch_profile['email']; ?>" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="email" name="email" placeholder="<?= $fetch_profile['email']; ?>" class="box" maxlength="50">
       <input type="number" name="number" placeholder="<?= $fetch_profile['number']; ?>"" class="box" min="0" max="9999999999" maxlength="10">
-      <input type="password" name="old_pass" placeholder="enter your old password" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
-      <input type="password" name="new_pass" placeholder="enter your new password" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
-      <input type="password" name="confirm_pass" placeholder="confirm your new password" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="password" name="old_pass" placeholder="enter your old password" class="box" maxlength="50">
+      <input type="password" name="new_pass" placeholder="enter your new password" class="box" maxlength="50">
+      <input type="password" name="confirm_pass" placeholder="confirm your new password" class="box" maxlength="50">
       <input type="submit" value="update now" name="submit" class="btn">
    </form>
 

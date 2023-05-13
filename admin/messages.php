@@ -25,7 +25,7 @@ if(isset($_GET['delete'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>messages</title>
+   <title>lời nhắn</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -57,7 +57,7 @@ if(isset($_GET['delete'])){
       <p> Điện thoại : <span><?= $fetch_messages['number']; ?></span> </p>
       <p> Email : <span><?= $fetch_messages['email']; ?></span> </p>
       <p> Lời nhắn : <span><?= $fetch_messages['message']; ?></span> </p>
-      <a href="messages.php?delete=<?= $fetch_messages['id']; ?>" class="delete-btn" onclick="return confirm('delete this message?');">delete</a>
+      <a href="messages.php?delete=<?= $fetch_messages['id']; ?>" class="delete-btn" onclick="return confirm('xoá lời nhắn này?');">xoá</a>
    </div>
    <?php
          }

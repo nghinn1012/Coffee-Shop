@@ -122,14 +122,12 @@ if(isset($_POST['submit'])){
       <p><i class="fas fa-envelope"></i><span><?= $fetch_profile['email'] ?></span></p>
       <a href="update_profile.php" class="btn">Cập nhật thông tin</a>
       <h3>Địa chỉ nhận</h3>
-      <p><i class="fas fa-map-marker-alt"></i><span><?php if($fetch_profile['address'] == ''){echo 'please enter your address';}else{echo $fetch_profile['address'];} ?></span></p>
+      <p><i class="fas fa-map-marker-alt"></i><span><?php if($fetch_profile['address'] == ''){echo 'Nhập địa chỉ của bạn';}else{echo $fetch_profile['address'];} ?></span></p>
       <a href="update_address.php" class="btn">Cập nhật địa chỉ</a>
       <select name="method" class="box" required>
          <option value="" disabled selected>chọn phương thức thanh toán --</option>
-         <option value="cash on delivery">tiền mặt</option>
-         <option value="credit card">thẻ ngân hàng</option>
-         <!-- <option value="paytm">paytm</option>
-         <option value="paypal">paypal</option> -->
+         <option value="tiền mặt">tiền mặt</option>
+         <option value="thẻ ngân hàng">thẻ ngân hàng</option>
       </select>
       <input type="submit" value="xác nhận" class="btn <?php if($fetch_profile['address'] == ''){echo 'disabled';} ?>" style="width:100%; background:var(--red); color:var(--white);" name="submit">
    </div>

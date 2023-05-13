@@ -15,7 +15,7 @@ if(isset($message)){
 
    <section class="flex">
       
-      <a href="dashboard.php" class="logo">Admin<span>Panel</span></a>
+      <a href="dashboard.php" class="logo">Admin<span></span></a>
 
       <nav class="navbar">
          <a href="dashboard.php">trang chủ</a>
@@ -43,7 +43,7 @@ if(isset($message)){
             <a href="admin_login.php" class="option-btn">Đăng nhập</a>
             <a href="register_admin.php" class="option-btn">Đăng ký</a>
          </div>
-         <a href="../view/admin_logout.php" onclick="return confirm('Đăng xuất khỏi trang web?');" class="delete-btn">logout</a>
+         <a href="../view/admin_logout.php" onclick="return confirm('Đăng xuất khỏi trang web?');" class="delete-btn">Đăng xuất</a>
       </div>
 
    </section>

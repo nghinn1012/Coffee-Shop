@@ -23,14 +23,14 @@ if(isset($_POST['submit'])){
    $select_admin->execute([$name]);
    
    if($select_admin->rowCount() > 0){
-      $message[] = 'username already exists!';
+      $message[] = 'tên tài khoản đã tồn tại!';
    }else{
       if($pass != $cpass){
-         $message[] = 'confirm passowrd not matched!';
+         $message[] = 'xác nhận mật khẩu không khớp!';
       }else{
          $insert_admin = $conn->prepare("INSERT INTO `admin`(name, password) VALUES(?,?)");
          $insert_admin->execute([$name, $cpass]);
-         $message[] = 'new admin registered!';
+         $message[] = 'đăng ký tài khoản mới thành công!';
       }
    }
 
@@ -44,7 +44,7 @@ if(isset($_POST['submit'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>register</title>
+   <title>đăng ký</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">

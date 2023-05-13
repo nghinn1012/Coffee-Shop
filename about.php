@@ -74,20 +74,17 @@ if(isset($_SESSION['user_id'])){
 
       <div class="box">
          <img src="images/t1.jpg" alt="">
-         <h3>Đức Huy</h3>
-         <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, dolorem.</p> -->
+         <h3>Đức Huy</h3>   
       </div>
 
       <div class="box">
          <img src="images/t2.jpg" alt="">
-         <h3>Khánh Huyền</h3>
-         <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, dolorem.</p> -->
+         <h3>Khánh Huyền</h3> 
       </div>
 
       <div class="box">
          <img src="images/t3.jpg" alt="">
          <h3>Thảo Hương</h3>
-         <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, dolorem.</p> -->
       </div>
 
    </div>

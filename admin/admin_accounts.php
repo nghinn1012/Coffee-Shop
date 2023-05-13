@@ -25,7 +25,7 @@ if(isset($_GET['delete'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>admins accounts</title>
+   <title>Tài khoản admin</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -42,7 +42,7 @@ if(isset($_GET['delete'])){
 
 <section class="accounts">
 
-   <h1 class="heading">admins account</h1>
+   <h1 class="heading">Tài khoản admin</h1>
 
    <div class="box-container">
 
@@ -61,7 +61,7 @@ if(isset($_GET['delete'])){
       <p> id admin : <span><?= $fetch_accounts['id']; ?></span> </p>
       <p> tên admin : <span><?= $fetch_accounts['name']; ?></span> </p>
       <div class="flex-btn">
-         <a href="admin_accounts.php?delete=<?= $fetch_accounts['id']; ?>" class="delete-btn" onclick="return confirm('delete this account?');">xoá</a>
+         <a href="admin_accounts.php?delete=<?= $fetch_accounts['id']; ?>" class="delete-btn" onclick="return confirm('xoá tài khoản này?');">xoá</a>
          <?php
             if($fetch_accounts['id'] == $admin_id){
                echo '<a href="update_profile.php" class="option-btn">sửa</a>';
