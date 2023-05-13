@@ -14,13 +14,13 @@
 
 ## Các chức năng
 
-* Đối với khách hàng:
+### Đối với khách hàng:
 +   Có chức năng đăng nhập để lưu lại các dữ liệu của người dùng thông qua tài khoản đăng nhập.
 +   Người dùng chỉnh sửa được thông tin cá nhân, có thể tìm kiếm sản phẩm, sắp xếp sản phẩm, gửi lời nhắn
 +   Hiển thị được chính xác các thông tin sản phẩm của cửa hàng, các thông tin về đánh giá, vị trí, liên hệ của cửa hàng
 +   Hiển thị được thông tin giỏ hàng, thông tin các đơn đặt hàng của người dùng
 +   Tính toán, thống kê các đơn đặt hàng để đưa ra giá trị đơn hàng khi khách hàng đặt hàng
-* Đối với người quản lý
+### Đối với người quản lý
 +   Có chức năng đăng nhập để đảm bảo người có quyền mới được truy cập vào hệ thống quản lý
 +   Người quản lý có thể quản lý tài khoản admin, tài khoản người dùng
 +   Người quản lý có thể quản lý sản phẩm, quản lý các đơn đặt hàng
